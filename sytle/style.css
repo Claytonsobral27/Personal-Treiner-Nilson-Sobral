@@ -4,3 +4,136 @@ padding: 0;
 
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+body{
+
+background-image: url('../img/background.jpg');
+background-position: cover;
+background-repeat: no-repeat;
+height: 158vh;
+font-family: 'Roboto' sans-serif;
+
+}
+
+.menulateral{
+    display:inline-flex;
+    line-height:6em;
+    position: absolute;
+    right: 2px;
+    width: 350px;
+    
+    height: 158vh;
+    background-color: rgb(245, 122, 8);
+   
+}
+
+
+
+
+.menulateral ul li {
+
+margin-top: 80px;
+right: 40px;
+list-style: none;
+;
+
+
+
+
+}
+
+
+.menulateral a {
+  text-decoration: none;
+  text-transform: uppercase;
+background: rgb(10, 10, 10);
+padding: 10px;
+border-radius: 10px;
+text-align: center;
+margin: -15px;
+color: rgb(245, 122, 8);
+transition: 1.5s ease;
+
+
+  
+}
+
+.menulateral a:hover {
+background: rgb(255, 255, 255);
+color: black;
+
+}
+
+.blocos {
+
+display:inline-flex;
+
+top: 50px;
+margin: 50px;
+
+}
+.quadro1 {
+
+    width: 250px;
+    height: 250px;
+
+    margin-left:20px;
+    background-image: url('../img/mg1.jpg');
+    background-size: cover;
+    background-position: left;
+
+}
+
+.quadro2 {
+
+    width: 250px;
+    height: 250px;
+  
+    margin-left:20px;
+    background-image: url('../img/mg3.jpg');
+    background-size: cover;
+    background-position: left;
+}
+.quadro3 {
+
+    width: 250px;
+    height: 250px;
+    
+    margin-left:20px;
+    background-image: url('../img/mg4.jpg');
+    background-size: cover;
+    background-position: left;
+}
+.quadro4 {
+
+    width: 250px;
+    height: 250px;
+   
+    margin-left:20px;
+    background-image: url('../img/mg5.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+footer span {
+
+float: left;
+color: white;
+position: absolute;
+top:155vh
+
+
+}
+
+footer span a {
+
+color: rgb(245, 122, 8);;
+
+}
+
+footer span a:hover {
+
+    color: blueviolet;
+    
+    }

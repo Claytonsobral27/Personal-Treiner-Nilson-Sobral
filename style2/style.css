@@ -1,0 +1,43 @@
+*{
+
+padding: 0;
+margin: 0;
+
+}
+
+
+body{
+ color: white;
+    font-family: 'Roboto',sans-serif;
+    background-color: black;
+}
+main h1 {
+text-align: center;
+margin: 20px;
+
+}
+
+
+main h2 {
+    text-align: center;
+        margin: 20px;    
+    }
+    
+    main p {
+        text-align: center;
+         margin: 20px;    
+        }
+
+main .foto{
+
+width: 50vh;
+height: 80vh;
+
+position: absolute;
+left: 600px;
+background-image: url('../img/mg2.jpg'); 
+background-size: cover;
+}
+
+
+@media (max-with: 600px)
